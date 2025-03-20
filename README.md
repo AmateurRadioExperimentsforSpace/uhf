@@ -1,93 +1,93 @@
-# Kolay UHF Amatör Radyo Anteni Yapımı
+# Easy UHF Amateur Radio Antenna Construction
 
-Bu rehber, amatör radyo uygulamaları için basit bir UHF anteni yapmanıza yardımcı olacaktır. UHF (Ultra High Frequency) anteni, 300 MHz ile 3 GHz arasındaki frekanslarda çalışacak şekilde tasarlanabilir. Bu rehberde, kolayca yapabileceğiniz bir dipol anteni için adım adım talimatları bulabilirsiniz.
+This guide will help you build a simple UHF antenna for amateur radio applications. UHF (Ultra High Frequency) antennas can be designed to operate in the 300 MHz to 3 GHz frequency range. In this guide, you will find step-by-step instructions for making a simple dipole antenna.
 
-## İçindekiler
-1. [Gereksinimler](#gereksinimler)
-2. [Malzemeler](#malzemeler)
-3. [Anteni Yapma Adımları](#anteni-yapma-adımları)
-4. [Anteni Test Etme](#anteni-test-etme)
-5. [Sonuçlar ve İpuçları](#sonuçlar-ve-ipuçları)
-6. [Görseller](#görseller)
+## Table of Contents
+1. [Requirements](#requirements)
+2. [Materials](#materials)
+3. [Steps to Build the Antenna](#steps-to-build-the-antenna)
+4. [Testing the Antenna](#testing-the-antenna)
+5. [Results and Tips](#results-and-tips)
+6. [Images](#images)
 
-## Gereksinimler
+## Requirements
 
-- **Bilgisayar**: Bu rehberi takip edebilmeniz için bilgisayar ve internet bağlantısı gereklidir.
-- **Multimetre**: Anten bağlantılarının doğruluğunu kontrol etmek için.
-- **Lehimleme Seti**: Lehimleme işlemi için gerekli araçlar.
-- **El Aletleri**: Pense, tornavida, kablo kesme makası gibi el aletleri.
+- **Computer**: A computer and internet connection are needed to follow this guide.
+- **Multimeter**: To verify the antenna connections.
+- **Soldering Kit**: For soldering components together.
+- **Hand Tools**: Pliers, screwdrivers, wire cutters, and other hand tools.
 
-## Malzemeler
+## Materials
 
-Aşağıdaki malzemelere ihtiyacınız olacak:
+You will need the following materials:
 
-- **Coax Kablo**: 50 Ohm impedanslı koaksiyel kablo (genellikle RG-58 kullanılır).
-- **SMA Konektör**: UHF konektörü.
-- **Alüminyum Tel**: 5mm-10mm çapında, 30 cm uzunluğunda iki parça.
-- **Ağaç veya Plastik Taban**: Antenin montajı için.
-- **Lehim Teli**: Lehimleme işlemi için.
+- **Coaxial Cable**: 50 Ohm impedance coaxial cable (RG-58 is commonly used).
+- **SMA Connector**: UHF connector.
+- **Aluminum Wire**: 5mm-10mm diameter, two pieces 30 cm long.
+- **Wood or Plastic Base**: To mount the antenna.
+- **Soldering Wire**: For the soldering process.
 
-## Anteni Yapma Adımları
+## Steps to Build the Antenna
 
-### 1. Anten için Temel Tasarım
+### 1. Basic Antenna Design
 
-Bu rehberde, basit bir **dipol anten** yapacağız. Dipol anten, iki paralel metal telin ortasında besleme noktasına sahip bir yapıdır. 
+In this guide, we will build a simple **dipole antenna**. A dipole antenna consists of two parallel metal wires with a feed point in the center.
 
-**Anten Boyutları:**
-- Antenin her bir kolu, yaklaşık 1/4 dalga boyu uzunluğunda olmalıdır.
-- UHF frekansları için, dalga boyu yaklaşık 30 cm civarındadır.
+**Antenna Dimensions:**
+- Each antenna element should be approximately 1/4 wavelength long.
+- For UHF frequencies, the wavelength is around 30 cm.
 
-### 2. Tel ve Bağlantı Hazırlığı
+### 2. Preparing the Wire and Connections
 
-- **Adım 1**: 30 cm uzunluğunda 2 adet alüminyum tel kesin. Bu teller antenin her iki kolu olacak.
-- **Adım 2**: Telleri, uçlarından yaklaşık 1-2 cm kadar birleştireceğiz. Bu birleşme noktasını SMA konektörüne bağlayacağız.
+- **Step 1**: Cut two pieces of aluminum wire, each 30 cm long. These will be the two elements of the antenna.
+- **Step 2**: We will join the ends of these wires together and attach them to the SMA connector.
 
-### 3. SMA Konektör Bağlantısı
+### 3. Connecting the SMA Connector
 
-- **Adım 1**: SMA konektörünün merkezine, koaksiyel kablonun merkez telini lehimleyin.
-- **Adım 2**: Koaksiyel kablonun dış kılıfını, SMA konektörünün dış kısmına lehimleyin.
+- **Step 1**: Solder the center conductor of the coaxial cable to the center pin of the SMA connector.
+- **Step 2**: Solder the outer shield of the coaxial cable to the outer part of the SMA connector.
 
-### 4. Anten Kol Yerleşimi
+### 4. Mounting the Antenna Elements
 
-- **Adım 1**: Hazırladığınız 30 cm uzunluğundaki alüminyum telleri, merkezdeki birleşme noktasına bağlayın.
-- **Adım 2**: Her iki telin düzgün bir şekilde 180 derece açıyla yayılmasını sağlayın.
+- **Step 1**: Attach the 30 cm aluminum wires to the center feed point.
+- **Step 2**: Ensure that the two wires are spread at a 180-degree angle for optimal performance.
 
-### 5. Anten Montajı
+### 5. Antenna Mounting
 
-- **Adım 1**: Anteni, plastik veya ahşap bir taban üzerine sabitleyin.
-- **Adım 2**: Tabanı yerden veya duvarlardan yeterince yükseğe yerleştirin, böylece sinyal iletimi için uygun bir ortam sağlanmış olur.
+- **Step 1**: Secure the antenna to a plastic or wooden base.
+- **Step 2**: Place the base in a location that is elevated or away from metal surfaces to ensure optimal signal transmission.
 
-## Anteni Test Etme
+## Testing the Antenna
 
-Anteni test etmek için aşağıdaki adımları izleyebilirsiniz:
+To test the antenna, follow these steps:
 
-- **Adım 1**: Anteni bir UHF alıcı-vericiye bağlayın.
-- **Adım 2**: Antenin sinyal gücünü ölçmek için bir **SWR metre** kullanın. SWR değeri 1:1'e yakın olmalıdır; bu, ideal empedans uyumunu gösterir.
-
----
-
-## Görseller
-
-1. **Antenin Temel Tasarımı**
-
-![Antenin Temel Tasarımı](https://raw.githubusercontent.com/username/repository/master/images/anten_design.png)
-
-2. **Lehimleme İşlemi**
-
-![Lehimleme İşlemi](https://raw.githubusercontent.com/username/repository/master/images/soldering.png)
-
-3. **Antenin Montajı**
-
-![Antenin Montajı](https://raw.githubusercontent.com/username/repository/master/images/anten_mounting.png)
+- **Step 1**: Connect the antenna to a UHF transceiver or receiver.
+- **Step 2**: Use an **SWR meter** to measure the antenna’s signal strength. The ideal SWR value should be close to 1:1, indicating proper impedance matching.
 
 ---
 
-## Sonuçlar ve İpuçları
+## Images
 
-- Anteninizin SWR değerini optimize etmek için boyutları tekrar kontrol edin.
-- Anteninizi, metal yüzeylerden uzak bir konumda yerleştirin.
-- Anteninizi düzenli aralıklarla kontrol ederek, iletimde kayıpları minimize edebilirsiniz.
+1. **Basic Antenna Design**
+
+![Basic Antenna Design](https://raw.githubusercontent.com/username/repository/master/images/anten_design.png)
+
+2. **Soldering Process**
+
+![Soldering Process](https://raw.githubusercontent.com/username/repository/master/images/soldering.png)
+
+3. **Antenna Mounting**
+
+![Antenna Mounting](https://raw.githubusercontent.com/username/repository/master/images/anten_mounting.png)
 
 ---
 
-Bu rehber, amatör radyo meraklıları için basit ve verimli bir anten yapımı sürecini anlatmaktadır. Eğer herhangi bir sorunuz olursa, GitHub issues sekmesini kullanarak bizimle iletişime geçebilirsiniz.
+## Results and Tips
+
+- Recheck the antenna dimensions to optimize the SWR value.
+- Place the antenna away from metal surfaces for better performance.
+- Regularly inspect the antenna to minimize signal loss over time.
+
+---
+
+This guide provides a simple and efficient way to build an amateur radio antenna. If you have any questions, feel free to contact us through the GitHub Issues section.
